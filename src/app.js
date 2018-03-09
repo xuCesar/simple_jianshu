@@ -1,6 +1,14 @@
 
-ReactDOM.render(,
-    <div>Hello</div>
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Layout from 'layout/Layout';
+
+require('semantic/dist/semantic.min.css')
+require('semantic/dist/semantic.min.js')
+
+ReactDOM.render(
+    <Router>
+        <Route path='/' component={ Layout } ></Route>
+    </Router>,
     document.getElementById('root')
 );
 
