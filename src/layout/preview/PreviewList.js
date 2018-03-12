@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 import Preview from './Preview';
 import S from './style.scss';
-import cfg from 'common/config.json'
+import cfg from 'common/config/config.json'
 
 export default function PreviewList(props){
 

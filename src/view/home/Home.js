@@ -1,9 +1,9 @@
 import PreviewList from 'preview/PreviewList';
 import Recommend from 'components/home/Recommend';
-import cfg from 'common/config.json';
+import cfg from 'common/config/config.json';
 
-import articalData from 'common/data.json';
-import authorData from 'common/authorData.json';
+// import articalData from 'common/data.json';
+// import authorData from 'common/authorData.json';
 
 export default class Home extends React.Component{
     constructor(props){

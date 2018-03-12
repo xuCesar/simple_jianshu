@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import cfg from 'common/config.json';
+import cfg from 'common/config/config.json';
 
 export default function Author({user}){
     let {user_name, avatar} = user;
